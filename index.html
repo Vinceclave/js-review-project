@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo CRUD Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Todo List</h1>
+        <form action="" id="todo-form" class="mb-4 flex">
+            <input type="text" name="todo-input" id="todo" placeholder="Add new Todo" required class="flex-1 p-2 border rounded mr-2" />
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Add</button>
+        </form>
+        <ul id="todo-list" class="list-disc pl-5"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
